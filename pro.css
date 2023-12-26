@@ -1,0 +1,165 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >div{
+    margin-left: 1rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 1rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: blue;
+    color: white;
+
+}
+section{
+    justify-content: center;
+    justify-items: center ;
+}
+button{
+    background-color: rgb(75, 69, 62);
+    color: white;
+}
+.book{
+    color: rgb(78, 68, 55);
+    text-decoration: underline;
+}
+.o{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.t{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: rgb(231, 177, 186);
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+h3, h4{
+    text-align: center;
+    margin: 0px;
+
+}
+h3{
+    font-size: 30px;
+    margin-top: 50px;
+}
+h4{
+    margin-bottom: 20px;
+}
+.sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ebook{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    text-align: center;
+    align-items: center;
+    border-color: rgb(78, 68, 55);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 350px;
+    width: 240px;
+}
+
+.bo{
+    margin-left: 100px;
+}
+.bt{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.bth{
+    margin-right: 100px;
+}
+.ebook:hover{
+    padding-top: 10px;
+    border: solid 2px;
+    border-color: rgb(128, 67, 67);
+    padding: 10%;
+    z-index: 1;
+
+}
+.th{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plan{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.subsect{
+    margin: auto;
+}
+.cha{
+    border: solid 1px rgb(75, 69, 62);
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.cha:active:hover{
+    background-color: antiquewhite;
+}
+.f{
+    background-color: rgb(242, 235, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    
+}
+.subsecth{
+    background-color: white;
+    width: 35rem;
+    padding-left: 10px;
+}
+.s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.touch{
+    display: grid;
+    margin-top: 10px;
+    width: 25rem;
+    height: 55px;
+}
+.to{
+    height: 150px;
+}
+.but{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.se{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 231, 217);
+    padding-bottom: 20px;
+}
+.se div{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.re{
+    background-color: rgba(247, 224, 131, 0.808);
+    border: solid 0px;
+    color: rgb(75, 69, 62);
+}
